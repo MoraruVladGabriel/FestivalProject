@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.festivalapp.controllers.Register">
+   <children>
+      <ImageView fitHeight="92.0" fitWidth="129.0" layoutX="236.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../imagesCSS/icons8-user-ios-16-glyph/icons8-user-90.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="numeRegister" layoutX="58.0" layoutY="161.0" prefHeight="45.0" prefWidth="178.0" promptText="Nume">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailRegister" layoutX="58.0" layoutY="233.0" prefHeight="45.0" prefWidth="178.0" promptText="Email">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="parolaRegister" layoutX="58.0" layoutY="303.0" prefHeight="45.0" prefWidth="178.0" promptText="Parola">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oficiuRegister" layoutX="58.0" layoutY="373.0" prefHeight="45.0" prefWidth="178.0" promptText="Oficiu">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="saveButton" layoutX="397.0" layoutY="228.0" mnemonicParsing="false" onAction="#userSave" prefHeight="55.0" prefWidth="92.0" text="Save">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="wrongRegister" alignment="CENTER" layoutX="268.0" layoutY="131.0" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveButton1" layoutX="397.0" layoutY="303.0" mnemonicParsing="false" onAction="#backToLogIn" prefHeight="55.0" prefWidth="92.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

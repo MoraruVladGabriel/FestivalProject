@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.festivalapp.controllers.AfterLogin">
+   <top>
+      <AnchorPane prefHeight="55.0" prefWidth="727.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="cautareData" layoutX="56.0" layoutY="15.0" promptText="Data spectacolului" />
+         </children></AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="101.0" prefWidth="727.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="71.0" layoutY="30.0" mnemonicParsing="false" onAction="#cumparareBilete" prefHeight="42.0" prefWidth="92.0" text="Cumparare" />
+            <Button layoutX="318.0" layoutY="30.0" mnemonicParsing="false" onAction="#cautareSpectacol" prefHeight="42.0" prefWidth="92.0" text="Cautare" />
+            <Button layoutX="557.0" layoutY="30.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="42.0" prefWidth="92.0" text="LogOut" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="afterLoginTableView" prefHeight="350.0" prefWidth="727.0">
+              <columns>
+                <TableColumn fx:id="tableColumnNumeSpectacol" prefWidth="130.0" text="Spectacol" />
+                  <TableColumn fx:id="tableColumnData" prefWidth="163.0" text="Data" />
+                  <TableColumn fx:id="tableColumnLocatia" prefWidth="142.0" text="Locatia" />
+                  <TableColumn fx:id="tableColumnLocuriDisponibile" prefWidth="134.0" text="Locuri disponibile" />
+                  <TableColumn fx:id="tableColumnLocuriVandute" prefWidth="157.0" text="Locuri vandute" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

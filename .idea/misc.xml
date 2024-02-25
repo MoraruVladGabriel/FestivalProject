@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Festival" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalApp" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalClientFX" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalGUI" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalModel" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalNetworking" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalPersistance" />
+    <file type="web" url="file://$PROJECT_DIR$/FestivalServices" />
+    <file type="web" url="file://$PROJECT_DIR$/RestServices" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-16" project-jdk-type="JavaSDK" />
+</project>

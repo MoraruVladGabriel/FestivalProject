@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.festivalapp.controllers.LogIn">
+   <bottom>
+      <AnchorPane prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView layoutX="130.0" layoutY="25.0">
+               <image>
+                  <Image url="@../../../../../imagesCSS/icons8-user-ios-16-glyph/icons8-user-90.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="email" layoutX="63.0" layoutY="161.0" promptText="Email">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password" layoutX="63.0" layoutY="216.0" promptText="Password">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="loginButton" layoutX="63.0" layoutY="290.0" mnemonicParsing="false" onAction="#userLogIn" text="Login">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="registerButton" layoutX="229.0" layoutY="290.0" mnemonicParsing="false" onAction="#userRegister" text="Register">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="wrongLogin" layoutX="161.0" layoutY="125.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

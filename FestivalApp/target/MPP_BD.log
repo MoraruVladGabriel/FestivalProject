@@ -1,0 +1,20 @@
+05 apr. 2023 01:29:11,718 INFO  com.example.festivalapp.repository.repoDB.CasierDBRepository 24 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:11,723 INFO  com.example.festivalapp.repository.repoDB.ArtistDBRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:11,725 INFO  com.example.festivalapp.repository.repoDB.CumparareDBRepository 30 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:11,727 INFO  com.example.festivalapp.repository.repoDB.SpectacolDBRepository 29 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:23,148 INFO  com.example.festivalapp.repository.repoDB.CasierDBRepository 24 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:23,155 INFO  com.example.festivalapp.repository.repoDB.ArtistDBRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:23,157 INFO  com.example.festivalapp.repository.repoDB.CumparareDBRepository 30 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:29:23,161 INFO  com.example.festivalapp.repository.repoDB.SpectacolDBRepository 29 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:30:24,203 INFO  com.example.festivalapp.repository.repoDB.CasierDBRepository 24 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:30:24,209 INFO  com.example.festivalapp.repository.repoDB.ArtistDBRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:30:24,212 INFO  com.example.festivalapp.repository.repoDB.CumparareDBRepository 30 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:30:24,214 INFO  com.example.festivalapp.repository.repoDB.SpectacolDBRepository 29 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+05 apr. 2023 01:31:05,993 TRACE com.example.festivalapp.repository.repoDB.CasierDBRepository 202 getCasierByEmail - Enter
+05 apr. 2023 01:31:05,993 TRACE com.example.festivalapp.utils.JdbcUtils 46 getConnection - Enter
+05 apr. 2023 01:31:05,993 TRACE com.example.festivalapp.utils.JdbcUtils 23 getNewConnection - Enter
+05 apr. 2023 01:31:05,994 INFO  com.example.festivalapp.utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+05 apr. 2023 01:31:05,994 INFO  com.example.festivalapp.utils.JdbcUtils 29 getNewConnection - user: null
+05 apr. 2023 01:31:05,994 INFO  com.example.festivalapp.utils.JdbcUtils 30 getNewConnection - pass: null
+05 apr. 2023 01:31:06,331 TRACE com.example.festivalapp.utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d15eed3)
+05 apr. 2023 01:31:06,338 TRACE com.example.festivalapp.repository.repoDB.CasierDBRepository 226 getCasierByEmail - Exit with(Casier{nume='null', parola='null', email='null', oficiu='null'})

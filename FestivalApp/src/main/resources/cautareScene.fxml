@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.festivalapp.controllers.CautareController">
+   <children>
+      <TableView fx:id="cautareTableView" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="artistColumnTable" prefWidth="138.0" text="Artist" />
+          <TableColumn fx:id="locatieColumnTable" prefWidth="170.0" text="Locatie" />
+            <TableColumn fx:id="oraColumnTable" prefWidth="164.0" text="Ora inceperii" />
+            <TableColumn fx:id="locuriDisponibileColumnTable" prefWidth="127.0" text="Locuri disponibile" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

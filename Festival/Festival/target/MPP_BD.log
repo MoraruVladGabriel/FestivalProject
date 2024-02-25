@@ -1,0 +1,691 @@
+21 mar. 2023 17:42:39,180 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {} 
+21 mar. 2023 17:42:39,187 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@2c1b194a 
+21 mar. 2023 17:42:39,187 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 17:42:39,187 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 17:42:39,188 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... null
+21 mar. 2023 17:42:39,188 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 17:42:39,188 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 17:42:39,197 ERROR utils.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+21 mar. 2023 17:42:39,200 TRACE utils.JdbcUtils 55 getConnection - Exit
+21 mar. 2023 17:44:30,015 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {} 
+21 mar. 2023 17:44:30,021 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@550dbc7a 
+21 mar. 2023 17:44:30,022 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 17:44:30,022 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 17:44:30,022 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... null
+21 mar. 2023 17:44:30,022 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 17:44:30,023 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 17:44:30,032 ERROR utils.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+21 mar. 2023 17:44:30,033 TRACE utils.JdbcUtils 55 getConnection - Exit
+21 mar. 2023 17:44:52,544 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\Festival.sqlite} 
+21 mar. 2023 17:44:52,552 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@66f57048 
+21 mar. 2023 17:44:52,559 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 17:44:52,560 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 17:44:52,560 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\Festival.sqlite
+21 mar. 2023 17:44:52,561 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 17:44:52,561 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 17:44:52,603 ERROR utils.JdbcUtils 39 getNewConnection - java.sql.SQLException: path to 'jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\Festival.sqlite': 'C:\Users\morar\Desktop\proiectMPPJava\Festival\jdbc:sqlite:C:' does not exist
+21 mar. 2023 17:44:52,605 TRACE utils.JdbcUtils 55 getConnection - Exit
+21 mar. 2023 17:50:03,067 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 17:50:03,077 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@66f57048 
+21 mar. 2023 17:50:03,085 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 17:50:03,086 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 17:50:03,086 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 17:50:03,086 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 17:50:03,087 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 17:50:03,120 ERROR utils.JdbcUtils 39 getNewConnection - java.sql.SQLException: path to 'jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db': 'C:\Users\morar\Desktop\proiectMPPJava\Festival\jdbc:sqlite:C:' does not exist
+21 mar. 2023 17:50:03,121 TRACE utils.JdbcUtils 55 getConnection - Exit
+21 mar. 2023 17:55:50,677 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 17:55:50,683 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@66f57048 
+21 mar. 2023 17:55:50,690 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 17:55:50,690 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 17:55:50,690 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 17:55:50,691 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 17:55:50,691 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 17:55:50,714 ERROR utils.JdbcUtils 39 getNewConnection - java.sql.SQLException: path to 'jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db': 'C:\Users\morar\Desktop\proiectMPPJava\Festival\jdbc:sqlite:C:' does not exist
+21 mar. 2023 17:55:50,715 TRACE utils.JdbcUtils 55 getConnection - Exit
+21 mar. 2023 18:00:13,434 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:00:13,441 TRACE repo.ArtistRepository 76 save - Enter Saving task domain.Artist@66f57048 
+21 mar. 2023 18:00:13,441 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:00:13,441 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:00:13,447 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:00:13,448 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:00:13,448 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:00:13,617 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57bc27f5)
+21 mar. 2023 18:00:13,625 TRACE repo.ArtistRepository 82 save - Saved 1 instance 
+21 mar. 2023 18:00:13,626 TRACE repo.ArtistRepository 87 save - Exit
+21 mar. 2023 18:00:13,626 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:00:13,627 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:00:13,627 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57bc27f5)
+21 mar. 2023 18:00:13,628 TRACE repo.ArtistRepository 70 findAll - Exit with([domain.Artist@1c742ed4, domain.Artist@333d4a8c, domain.Artist@55de24cc])
+21 mar. 2023 18:00:13,628 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:00:13,628 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:00:13,629 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57bc27f5)
+21 mar. 2023 18:00:13,629 TRACE repo.ArtistRepository 46 findById - Exit with(domain.Artist@dc7df28)
+21 mar. 2023 18:00:13,630 TRACE repo.ArtistRepository 92 delete - Enter Deleting task domain.Artist@30f842ca 
+21 mar. 2023 18:00:13,630 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:00:13,630 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57bc27f5)
+21 mar. 2023 18:00:13,639 TRACE repo.ArtistRepository 97 delete - Deleted 1 instance 
+21 mar. 2023 18:00:13,639 TRACE repo.ArtistRepository 102 delete - Exit
+21 mar. 2023 18:00:13,639 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:00:13,639 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:00:13,640 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57bc27f5)
+21 mar. 2023 18:00:13,640 TRACE repo.ArtistRepository 70 findAll - Exit with([domain.Artist@4d14b6c2, domain.Artist@7e990ed7])
+21 mar. 2023 18:01:46,155 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:01:46,167 TRACE repo.ArtistRepository 76 save - Enter Saving task Artist{nume='Marian Popovici', tip='comediant'} 
+21 mar. 2023 18:01:46,168 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:01:46,168 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:01:46,168 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:01:46,169 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:01:46,169 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:01:46,359 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:01:46,370 TRACE repo.ArtistRepository 82 save - Saved 1 instance 
+21 mar. 2023 18:01:46,370 TRACE repo.ArtistRepository 87 save - Exit
+21 mar. 2023 18:01:46,371 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:01:46,371 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:01:46,371 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:01:46,372 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Robbie Williams', tip='cantaret'}, Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:01:46,373 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:01:46,373 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:01:46,373 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:01:46,374 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 18:01:46,375 TRACE repo.ArtistRepository 92 delete - Enter Deleting task Artist{nume='Marian Popovici', tip='comediant'} 
+21 mar. 2023 18:01:46,375 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:01:46,375 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:01:46,376 TRACE repo.ArtistRepository 97 delete - Deleted 0 instance 
+21 mar. 2023 18:01:46,376 TRACE repo.ArtistRepository 102 delete - Exit
+21 mar. 2023 18:01:46,376 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:01:46,376 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:01:46,377 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:01:46,377 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Robbie Williams', tip='cantaret'}, Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:06:25,421 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:06:25,435 TRACE repo.ArtistRepository 76 save - Enter Saving task Artist{nume='Marian Popovici', tip='comediant'} 
+21 mar. 2023 18:06:25,436 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:06:25,436 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:06:25,436 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:06:25,437 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:06:25,437 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:06:25,618 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:06:25,631 TRACE repo.ArtistRepository 82 save - Saved 1 instance 
+21 mar. 2023 18:06:25,632 TRACE repo.ArtistRepository 87 save - Exit
+21 mar. 2023 18:06:25,632 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:06:25,632 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:06:25,632 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:06:25,633 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Robbie Williams', tip='cantaret'}, Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:06:25,634 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:06:25,634 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:06:25,634 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:06:25,635 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 18:06:25,635 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:06:25,636 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:06:25,636 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:06:25,637 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='null', tip='null'})
+21 mar. 2023 18:06:25,637 TRACE repo.ArtistRepository 92 delete - Enter Deleting task Artist{nume='null', tip='null'} 
+21 mar. 2023 18:06:25,637 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:06:25,638 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:14,936 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:07:14,949 TRACE repo.ArtistRepository 76 save - Enter Saving task Artist{nume='Marian Popovici', tip='comediant'} 
+21 mar. 2023 18:07:14,949 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:14,950 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:07:14,950 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:07:14,950 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:07:14,951 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:07:15,127 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,136 TRACE repo.ArtistRepository 82 save - Saved 1 instance 
+21 mar. 2023 18:07:15,137 TRACE repo.ArtistRepository 87 save - Exit
+21 mar. 2023 18:07:15,137 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:07:15,137 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:15,137 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,138 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Robbie Williams', tip='cantaret'}, Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:07:15,139 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:07:15,139 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:15,139 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,140 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 18:07:15,140 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:07:15,140 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:15,140 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,141 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Robbie Williams', tip='cantaret'})
+21 mar. 2023 18:07:15,141 TRACE repo.ArtistRepository 92 delete - Enter Deleting task Artist{nume='Robbie Williams', tip='cantaret'} 
+21 mar. 2023 18:07:15,141 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:15,142 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,147 TRACE repo.ArtistRepository 97 delete - Deleted 1 instance 
+21 mar. 2023 18:07:15,147 TRACE repo.ArtistRepository 102 delete - Exit
+21 mar. 2023 18:07:15,147 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:07:15,148 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:07:15,148 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c7933ad)
+21 mar. 2023 18:07:15,149 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:18:31,014 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:18:31,020 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:18:31,020 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:18:31,020 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:18:31,021 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:18:31,021 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:18:31,021 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:18:31,203 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:18:31,213 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:18:31,215 ERROR repo.ArtistRepository 84 save - The entity already exist
+21 mar. 2023 18:18:31,216 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:18:31,216 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:18:31,217 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:18:31,217 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:18:31,218 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:18:31,219 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:18:31,219 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:18:31,220 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 18:18:31,221 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:18:31,221 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:18:31,221 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:18:31,222 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:20:15,122 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:20:15,128 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:20:15,128 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:20:15,128 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:20:15,129 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:20:15,129 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:20:15,129 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:20:15,304 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:20:15,311 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:20:15,312 ERROR repo.ArtistRepository 84 save - The Artist{nume='Marian Popovici', tip='comediant'} already exist
+21 mar. 2023 18:20:15,312 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:20:15,312 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:20:15,313 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:20:15,314 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:20:15,314 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 18:20:15,314 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:20:15,314 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:20:15,315 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 18:20:15,315 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 18:20:15,316 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:20:15,316 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:20:15,316 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 18:48:59,773 INFO  repo.CasierRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 18:48:59,781 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 18:48:59,781 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,782 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 18:48:59,782 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 18:48:59,782 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 18:48:59,782 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 18:48:59,953 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,958 TRACE repo.CasierRepository 76 findAll - Exit with([])
+21 mar. 2023 18:48:59,964 TRACE repo.CasierRepository 93 save - Enter Saving task Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} 
+21 mar. 2023 18:48:59,965 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,965 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,970 TRACE repo.CasierRepository 101 save - Saved 1 instance 
+21 mar. 2023 18:48:59,971 TRACE repo.CasierRepository 106 save - Exit
+21 mar. 2023 18:48:59,971 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 18:48:59,971 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,971 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,972 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 18:48:59,973 TRACE repo.CasierRepository 93 save - Enter Saving task Casier{nume='Marius', parola='parola', email='email', oficiu='B'} 
+21 mar. 2023 18:48:59,973 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,973 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,978 TRACE repo.CasierRepository 101 save - Saved 1 instance 
+21 mar. 2023 18:48:59,979 TRACE repo.CasierRepository 106 save - Exit
+21 mar. 2023 18:48:59,979 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 18:48:59,979 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,979 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,980 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}, Casier{nume='Marius', parola='parola', email='email', oficiu='B'}])
+21 mar. 2023 18:48:59,981 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 18:48:59,981 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,981 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,982 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 18:48:59,982 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 18:48:59,982 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,983 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,983 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 18:48:59,983 TRACE repo.CasierRepository 113 delete - Enter Deleting task Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} 
+21 mar. 2023 18:48:59,984 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,984 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,990 TRACE repo.CasierRepository 118 delete - Deleted 1 instance 
+21 mar. 2023 18:48:59,990 TRACE repo.CasierRepository 123 delete - Exit
+21 mar. 2023 18:48:59,990 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 18:48:59,991 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 18:48:59,991 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 18:48:59,992 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}])
+21 mar. 2023 21:43:29,926 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:43:29,931 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:43:29,932 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:29,932 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:43:29,939 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:43:29,939 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:43:29,939 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:43:30,107 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:43:30,113 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:43:30,113 ERROR repo.ArtistRepository 84 save - The Artist{nume='Marian Popovici', tip='comediant'} already exist
+21 mar. 2023 21:43:30,114 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:43:30,114 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,114 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:43:30,115 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:43:30,115 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:43:30,115 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,116 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:43:30,117 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:43:30,117 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:43:30,117 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,117 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:43:30,118 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:43:30,119 INFO  repo.CasierRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:43:30,120 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:43:30,121 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,121 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:43:30,121 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:43:30,121 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:43:30,122 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:43:30,123 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:43:30,129 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}])
+21 mar. 2023 21:43:30,130 TRACE repo.CasierRepository 93 save - Enter Saving task Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} 
+21 mar. 2023 21:43:30,130 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,130 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:43:30,135 TRACE repo.CasierRepository 101 save - Saved 1 instance 
+21 mar. 2023 21:43:30,136 TRACE repo.CasierRepository 106 save - Exit
+21 mar. 2023 21:43:30,136 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:43:30,136 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,136 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:43:30,137 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:43:30,137 ERROR repo.CasierRepository 90 save - The Casier{nume='Marius', parola='parola', email='email', oficiu='B'} already exist
+21 mar. 2023 21:43:30,137 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:43:30,138 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,138 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:43:30,139 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:43:30,139 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 21:43:30,140 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:43:30,140 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:43:30,140 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='null', parola='null', email='null', oficiu='null'})
+21 mar. 2023 21:43:30,142 INFO  repo.SpectacolRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:50:15,103 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:50:15,109 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:50:15,109 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,109 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:50:15,110 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:50:15,110 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:50:15,110 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:50:15,293 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:50:15,298 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:50:15,299 ERROR repo.ArtistRepository 84 save - The Artist{nume='Marian Popovici', tip='comediant'} already exist
+21 mar. 2023 21:50:15,299 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:50:15,299 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,299 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:50:15,300 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:50:15,301 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:50:15,301 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,301 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:50:15,302 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:50:15,302 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:50:15,302 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,303 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:50:15,303 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:50:15,305 INFO  repo.CasierRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:50:15,306 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:50:15,306 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,306 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:50:15,306 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:50:15,307 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:50:15,307 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:50:15,308 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:50:15,314 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:50:15,315 ERROR repo.CasierRepository 90 save - The Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} already exist
+21 mar. 2023 21:50:15,315 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:50:15,315 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,316 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:50:15,316 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:50:15,317 ERROR repo.CasierRepository 90 save - The Casier{nume='Marius', parola='parola', email='email', oficiu='B'} already exist
+21 mar. 2023 21:50:15,317 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:50:15,317 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,317 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:50:15,318 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:50:15,318 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 21:50:15,318 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,318 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:50:15,319 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='null', parola='null', email='null', oficiu='null'})
+21 mar. 2023 21:50:15,320 INFO  repo.SpectacolRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:50:15,322 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 21:50:15,322 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,322 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:50:15,322 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:50:15,322 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:50:15,323 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:50:15,324 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:50:15,324 TRACE repo.SpectacolRepository 86 findAll - Exit with([])
+21 mar. 2023 21:50:15,336 TRACE repo.SpectacolRepository 103 save - Enter Saving task Spectacol{nume='Spectacol1', artist=Artist{nume='Marian Popovici', tip='comediant'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78} 
+21 mar. 2023 21:50:15,336 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:50:15,336 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,364 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:53:56,370 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:53:56,370 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,370 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:53:56,370 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:53:56,370 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:53:56,371 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:53:56,542 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,547 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:53:56,548 ERROR repo.ArtistRepository 84 save - The Artist{nume='Marian Popovici', tip='comediant'} already exist
+21 mar. 2023 21:53:56,548 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:53:56,548 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,548 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,549 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:53:56,550 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,550 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,550 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,551 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,552 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 21:53:56,552 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,552 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,553 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 21:53:56,554 INFO  repo.CasierRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:53:56,555 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:53:56,556 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,556 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:53:56,556 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:53:56,556 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:53:56,557 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:53:56,558 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:53:56,565 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:53:56,566 ERROR repo.CasierRepository 90 save - The Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} already exist
+21 mar. 2023 21:53:56,566 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:53:56,567 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,567 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:53:56,568 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:53:56,568 ERROR repo.CasierRepository 90 save - The Casier{nume='Marius', parola='parola', email='email', oficiu='B'} already exist
+21 mar. 2023 21:53:56,568 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 21:53:56,569 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,569 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:53:56,569 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 21:53:56,570 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 21:53:56,570 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,571 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 21:53:56,571 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='null', parola='null', email='null', oficiu='null'})
+21 mar. 2023 21:53:56,573 INFO  repo.SpectacolRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 21:53:56,575 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 21:53:56,575 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,575 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 21:53:56,576 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 21:53:56,577 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 21:53:56,577 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 21:53:56,578 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,579 TRACE repo.SpectacolRepository 86 findAll - Exit with([])
+21 mar. 2023 21:53:56,587 TRACE repo.SpectacolRepository 103 save - Enter Saving task Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78} 
+21 mar. 2023 21:53:56,587 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,587 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,594 TRACE repo.SpectacolRepository 113 save - Saved 1 instance 
+21 mar. 2023 21:53:56,594 TRACE repo.SpectacolRepository 118 save - Exit
+21 mar. 2023 21:53:56,594 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 21:53:56,594 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,595 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,595 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,596 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,596 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,596 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,600 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}])
+21 mar. 2023 21:53:56,601 TRACE repo.SpectacolRepository 103 save - Enter Saving task Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176} 
+21 mar. 2023 21:53:56,601 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,601 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,606 TRACE repo.SpectacolRepository 113 save - Saved 1 instance 
+21 mar. 2023 21:53:56,606 TRACE repo.SpectacolRepository 118 save - Exit
+21 mar. 2023 21:53:56,606 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 21:53:56,607 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,607 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,608 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,608 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,608 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,609 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,610 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,610 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,610 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,611 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,611 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}])
+21 mar. 2023 21:53:56,612 TRACE repo.SpectacolRepository 103 save - Enter Saving task Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57} 
+21 mar. 2023 21:53:56,612 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,612 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,619 TRACE repo.SpectacolRepository 113 save - Saved 1 instance 
+21 mar. 2023 21:53:56,620 TRACE repo.SpectacolRepository 118 save - Exit
+21 mar. 2023 21:53:56,620 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 21:53:56,621 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,621 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,621 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,622 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,622 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,623 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,624 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,624 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,624 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,625 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,626 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,626 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,626 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,627 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,627 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}, Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57}])
+21 mar. 2023 21:53:56,628 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 21:53:56,628 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,629 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 21:53:56,630 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 21:53:56,630 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 21:53:56,630 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 21:53:56,631 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 21:53:56,632 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:14,761 INFO  repo.ArtistRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 22:02:14,767 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 22:02:14,768 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,768 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 22:02:14,768 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 22:02:14,769 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 22:02:14,769 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 22:02:14,958 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,963 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 22:02:14,963 ERROR repo.ArtistRepository 84 save - The Artist{nume='Marian Popovici', tip='comediant'} already exist
+21 mar. 2023 22:02:14,964 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 22:02:14,964 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,964 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,965 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 22:02:14,966 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:14,966 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,966 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,967 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:14,967 TRACE repo.ArtistRepository 52 findAll - Enter
+21 mar. 2023 22:02:14,968 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,968 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,968 TRACE repo.ArtistRepository 70 findAll - Exit with([Artist{nume='Florin Calinescu', tip='actor'}, Artist{nume='Marian Popovici', tip='comediant'}])
+21 mar. 2023 22:02:14,970 INFO  repo.CasierRepository 22 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 22:02:14,970 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 22:02:14,971 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,971 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 22:02:14,971 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 22:02:14,971 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 22:02:14,972 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 22:02:14,973 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:14,980 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 22:02:14,980 ERROR repo.CasierRepository 90 save - The Casier{nume='Andrei', parola='parola', email='email', oficiu='A'} already exist
+21 mar. 2023 22:02:14,981 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 22:02:14,981 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,981 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:14,982 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 22:02:14,982 ERROR repo.CasierRepository 90 save - The Casier{nume='Marius', parola='parola', email='email', oficiu='B'} already exist
+21 mar. 2023 22:02:14,982 TRACE repo.CasierRepository 56 findAll - Enter
+21 mar. 2023 22:02:14,982 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,983 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:14,983 TRACE repo.CasierRepository 76 findAll - Exit with([Casier{nume='Marius', parola='parola', email='email', oficiu='B'}, Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}])
+21 mar. 2023 22:02:14,984 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:14,984 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,984 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:14,985 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='null', parola='null', email='null', oficiu='null'})
+21 mar. 2023 22:02:14,986 INFO  repo.SpectacolRepository 25 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 22:02:14,987 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 22:02:14,987 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,987 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 22:02:14,987 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 22:02:14,987 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 22:02:14,988 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 22:02:14,988 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:14,989 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:14,989 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,989 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,990 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:14,994 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:14,994 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,995 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,995 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:14,996 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:14,996 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:14,996 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:14,997 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,005 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}, Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57}])
+21 mar. 2023 22:02:15,006 ERROR repo.SpectacolRepository 100 save - The Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78} already exist
+21 mar. 2023 22:02:15,006 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 22:02:15,006 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,006 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,007 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,007 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,007 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,008 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,008 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,008 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,009 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,009 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,009 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,010 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,010 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,011 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,012 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}, Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57}])
+21 mar. 2023 22:02:15,012 ERROR repo.SpectacolRepository 100 save - The Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176} already exist
+21 mar. 2023 22:02:15,012 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 22:02:15,013 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,013 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,014 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,014 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,014 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,015 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,015 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,015 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,016 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,016 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,017 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,017 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,017 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,018 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,019 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}, Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57}])
+21 mar. 2023 22:02:15,019 ERROR repo.SpectacolRepository 100 save - The Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57} already exist
+21 mar. 2023 22:02:15,019 TRACE repo.SpectacolRepository 64 findAll - Enter
+21 mar. 2023 22:02:15,019 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,020 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,020 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,020 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,020 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,021 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,021 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,021 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,021 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,022 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,022 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,023 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,023 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,023 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,024 TRACE repo.SpectacolRepository 86 findAll - Exit with([Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, Spectacol{nume='Spectacol2', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-21T16:00, locatie='locatie2', locuriDisponibile=250, locuriVandute=176}, Spectacol{nume='Spectacol3', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-05-23T12:30, locatie='locatie3', locuriDisponibile=145, locuriVandute=57}])
+21 mar. 2023 22:02:15,024 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,024 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,024 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,025 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,025 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,026 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,026 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,027 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,029 INFO  repo.CumparareRepository 26 <init> - Initializing ArtistRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db} 
+21 mar. 2023 22:02:15,029 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,030 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,030 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,031 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,031 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,031 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,031 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,032 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,032 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,032 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,032 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,033 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,033 TRACE repo.CumparareRepository 62 findAll - Enter
+21 mar. 2023 22:02:15,033 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,033 TRACE utils.JdbcUtils 23 getNewConnection - Enter
+21 mar. 2023 22:02:15,034 INFO  utils.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\morar\Desktop\proiectMPPJava\festival.db
+21 mar. 2023 22:02:15,034 INFO  utils.JdbcUtils 29 getNewConnection - user: null
+21 mar. 2023 22:02:15,034 INFO  utils.JdbcUtils 30 getNewConnection - pass: null
+21 mar. 2023 22:02:15,035 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,036 TRACE repo.CumparareRepository 82 findAll - Exit with([])
+21 mar. 2023 22:02:15,041 TRACE repo.CumparareRepository 99 save - Enter Saving task Cumparare{cumparator='Marius Mari', locuri=3, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}} 
+21 mar. 2023 22:02:15,041 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,041 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,047 TRACE repo.CumparareRepository 107 save - Saved 1 instance 
+21 mar. 2023 22:02:15,047 TRACE repo.CumparareRepository 112 save - Exit
+21 mar. 2023 22:02:15,047 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,047 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,048 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,048 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,048 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,049 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,049 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,050 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,050 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,050 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,050 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,051 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,051 TRACE repo.CumparareRepository 62 findAll - Enter
+21 mar. 2023 22:02:15,051 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,051 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,052 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,052 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,052 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,053 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,053 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,053 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,053 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,054 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,054 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,054 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,054 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,055 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,055 TRACE repo.CumparareRepository 82 findAll - Exit with([Cumparare{cumparator='Marius Mari', locuri=3, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}}])
+21 mar. 2023 22:02:15,055 TRACE repo.CumparareRepository 99 save - Enter Saving task Cumparare{cumparator='Vlad  Mic', locuri=2, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}} 
+21 mar. 2023 22:02:15,056 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,056 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,061 TRACE repo.CumparareRepository 107 save - Saved 1 instance 
+21 mar. 2023 22:02:15,061 TRACE repo.CumparareRepository 112 save - Exit
+21 mar. 2023 22:02:15,061 TRACE repo.CumparareRepository 62 findAll - Enter
+21 mar. 2023 22:02:15,062 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,062 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,062 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,063 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,063 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,063 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,064 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,064 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,064 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,065 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,065 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,065 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,066 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,066 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,066 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,066 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,066 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,067 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,067 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,067 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,068 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,069 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,069 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,069 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,069 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,070 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,070 TRACE repo.CumparareRepository 82 findAll - Exit with([Cumparare{cumparator='Marius Mari', locuri=3, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}}, Cumparare{cumparator='Vlad  Mic', locuri=2, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}}])
+21 mar. 2023 22:02:15,071 TRACE repo.CumparareRepository 33 findById - Enter
+21 mar. 2023 22:02:15,071 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,071 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14dd7b39)
+21 mar. 2023 22:02:15,071 TRACE repo.SpectacolRepository 31 findById - Enter
+21 mar. 2023 22:02:15,072 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,072 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@aba625)
+21 mar. 2023 22:02:15,072 TRACE repo.ArtistRepository 27 findById - Enter
+21 mar. 2023 22:02:15,072 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,073 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38467116)
+21 mar. 2023 22:02:15,074 TRACE repo.ArtistRepository 46 findById - Exit with(Artist{nume='Florin Calinescu', tip='actor'})
+21 mar. 2023 22:02:15,074 TRACE repo.SpectacolRepository 58 findById - Exit with(Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78})
+21 mar. 2023 22:02:15,075 TRACE repo.CasierRepository 27 findById - Enter
+21 mar. 2023 22:02:15,075 TRACE utils.JdbcUtils 46 getConnection - Enter
+21 mar. 2023 22:02:15,075 TRACE utils.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c742ed4)
+21 mar. 2023 22:02:15,075 TRACE repo.CasierRepository 50 findById - Exit with(Casier{nume='Andrei', parola='parola', email='email', oficiu='A'})
+21 mar. 2023 22:02:15,076 TRACE repo.CumparareRepository 56 findById - Exit with(Cumparare{cumparator='Marius Mari', locuri=3, spectacol=Spectacol{nume='Spectacol1', artist=Artist{nume='Florin Calinescu', tip='actor'}, data=2023-03-13T19:30, locatie='locatie1', locuriDisponibile=200, locuriVandute=78}, casier=Casier{nume='Andrei', parola='parola', email='email', oficiu='A'}})

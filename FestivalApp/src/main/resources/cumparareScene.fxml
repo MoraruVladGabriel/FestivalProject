@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.festivalapp.controllers.CumparareController">
+   <children>
+      <TextField fx:id="idSpectacol" layoutX="291.0" layoutY="43.0" />
+      <TextField fx:id="numeCumparator" layoutX="291.0" layoutY="102.0" />
+      <TextField fx:id="numarLocuri" layoutX="291.0" layoutY="166.0" />
+      <Label layoutX="133.0" layoutY="46.0" text="ID-ul spectacolului">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="105.0" text="Nume cumparator">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="169.0" text="Numar locuri">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="334.0" layoutY="295.0" mnemonicParsing="false" onAction="#cumparaBilete" prefHeight="41.0" prefWidth="81.0" text="Save" />
+      <TextField fx:id="idCasier" layoutX="291.0" layoutY="227.0" />
+      <Label layoutX="156.0" layoutY="230.0" text="ID-ul casierului">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
